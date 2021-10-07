@@ -1,0 +1,185 @@
+:root {
+  --primary-color: #ee2572;
+  --secondary-color: white;
+  --bg-color: #181818;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+  font-family: "lufga";
+}
+header {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  height: 10vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 150px;
+}
+button {
+  cursor: pointer;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-links li {
+  list-style: none;
+  font-family: "lufga";
+  color: white;
+  margin-left: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+.homepage {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 105px;
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+}
+.textflex {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.textflex h2 {
+  font-size: 2.5rem;
+}
+.textflex h1 {
+  font-size: 3.5rem;
+  color: var(--primary-color);
+}
+.textflex p {
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+.net img {
+  margin-top: 20px;
+}
+.buttons button {
+  width: 160px;
+  height: 45px;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  font-family: "lufga";
+  font-size: 1.2rem;
+  border-radius: 10px;
+  color: var(--secondary-color);
+}
+.image img {
+  width: 400px;
+}
+footer {
+  background-color: var(--secondary-color);
+  margin-top: 10px;
+  color: var(--bg-color);
+  height: 50px;
+  width: 100%;
+}
+.text p {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-top: 10px;
+}
+.merchpage {
+  background-color: var(--primary-color);
+}
+.max h1 {
+  font-size: 3rem;
+  padding-top: 40px;
+}
+.max {
+  max-width: 85%;
+  margin: auto;
+}
+.max p {
+  font-size: 1.4rem;
+}
+.clothes {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.price span {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.price p {
+  font-size: 1.5rem;
+}
+.price h2 {
+  font-size: 1.9rem;
+}
+.buy button {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  background-color: var(--bg-color);
+  font-family: "lufga";
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.last {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  height: 40vh;
+}
+.join {
+  display: flex;
+  justify-content: space-between;
+}
+.last h1 {
+  font-size: 3rem;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.trailor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.trailor iframe {
+  border-radius: 20px;
+  width: 85%;
+  height: 600px;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  /* background: #fff; */
+  background: #181818;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #ee2572;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
